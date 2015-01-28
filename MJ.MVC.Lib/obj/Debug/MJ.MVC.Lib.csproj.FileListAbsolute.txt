@@ -1,0 +1,7 @@
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\obj\Debug\MJ.MVC.Lib.csprojResolveAssemblyReference.cache
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\bin\Debug\MJ.MVC.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\bin\Debug\MJ.MVC.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\bin\Debug\MJ.Core.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\bin\Debug\MJ.Core.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\obj\Debug\MJ.MVC.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.MVC.Lib\obj\Debug\MJ.MVC.pdb

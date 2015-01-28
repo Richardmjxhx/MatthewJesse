@@ -1,0 +1,7 @@
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\bin\Debug\MJ.Lib.Example.UnitTests.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\bin\Debug\MJ.Lib.Example.UnitTests.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\obj\Debug\MJ.Lib.Example.UnitTests.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\obj\Debug\MJ.Lib.Example.UnitTests.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\bin\Debug\nunit.framework.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\bin\Debug\nunit.framework.xml
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example.UnitTests\obj\Debug\MJ.Lib.Example.UnitTests.csprojResolveAssemblyReference.cache

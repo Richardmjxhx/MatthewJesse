@@ -1,0 +1,10 @@
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Release\MJ.Lib.Example.exe.config
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Release\MJ.Lib.Example.exe
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Release\MJ.Lib.Example.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Release\MJ.Lib.Example.csprojResolveAssemblyReference.cache
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Release\MJ.Lib.Example.Properties.Resources.resources
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Release\MJ.Lib.Example.csproj.GenerateResource.Cache
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Release\MJ.Lib.Example.exe
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Release\MJ.Lib.Example.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Release\MJ.Core.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Release\MJ.MVC.dll

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SharpTestsEx</id>
+    <version>1.1.1</version>
+    <title>SharpTestsEx</title>
+    <authors>Fabio Maulo,  jdiamond</authors>
+    <owners>Fabio Maulo,  jdiamond</owners>
+    <licenseUrl>http://sharptestex.codeplex.com/license</licenseUrl>
+    <projectUrl>http://sharptestex.codeplex.com/</projectUrl>
+    <iconUrl>http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=sharptestex&amp;DownloadId=78322&amp;Build=17601</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SharpTestsEx (Sharp Tests Extensions) is a set of extensible extensions. The main target is write short assertions where the Visual Studio IDE intellisense is your guide. #TestsEx can be used with NUnit, MsTests, xUnit, MbUnit... even in Silverlight.</description>
+    <summary>SharpTestsEx (Sharp Tests Extensions) is a set of extensible extensions. The main target is write short assertions where the Visual Studio IDE intellisense is your guide. #TestsEx can be used with NUnit, MsTests, xUnit, MbUnit... even in Silverlight.</summary>
+  </metadata>
+</package>
