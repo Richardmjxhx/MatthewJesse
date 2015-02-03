@@ -14,19 +14,45 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
 
 # Examples
 
-MJ.Core
+MJ.Core examples
 
 1.1 Data binding
+
 two-way-binding code sinppet:
 
-//* Data binding for DepositModel */
-...
+/* binding a TextEdit control with DepositModel 'accountName' attri */
 txtAccount.TextBindTo<DepositModel>(m => m.accountName);
-...
-two-way-binding code sinppet:
 
-//* Data binding for DepositModel */
+one-way-binding code sinppet:
+
+/* binding Total Amount TextEdit with DepositModel, but not its single attri, need calcuate out by some rules */
+txtTotalAmount.TextFor<DepositModel>(m =>{
+var amount = 0;
 ...
-txtAccount.TextBindTo<DepositModel>(m => m.accountName);
-...
+return amount;
+});
+
+1.2 Data Load()
+
+code sinppet:
+/* txtBox1 can be any of control instances */
+txtBox1.Load<DepositModel>(deposit);
+
+According data bindings, Load() will push deposit data to all controls binding to DepositModel.
+
+1.3 Data Get()
+
+code sinppet:
+var check = new CheckModel();
+check.Get<CheckModel>();
+
+According data bindings, Get() will pull check data from all controls binding to CheckModel.
+
+1.4 More features with Data binding
+
+
+
+
+
+
 
