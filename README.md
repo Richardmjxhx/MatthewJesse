@@ -21,11 +21,13 @@ MJ.Core examples
 two-way-binding code sinppet:
 
 /* binding a TextEdit control with DepositModel 'accountName' attri */
+
 txtAccount.TextBindTo<DepositModel>(m => m.accountName);
 
 one-way-binding code sinppet:
 
 /* binding Total Amount TextEdit with DepositModel, but not its single attri, need calcuate out by some rules */
+
 txtTotalAmount.TextFor<DepositModel>(m =>{
 var amount = 0;
 ...
@@ -35,7 +37,9 @@ return amount;
 1.2 Data Load()
 
 code sinppet:
+
 /* txtBox1 can be any of control instances */
+
 txtBox1.Load<DepositModel>(deposit);
 
 According data bindings, Load() will push deposit data to all controls binding to DepositModel.
@@ -43,6 +47,7 @@ According data bindings, Load() will push deposit data to all controls binding t
 1.3 Data Get()
 
 code sinppet:
+
 var check = new CheckModel();
 check.Get<CheckModel>();
 
