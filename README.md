@@ -1,6 +1,6 @@
 # MatthewJesse
 
-MatthewJesse is a individual C# project, intends to provide a MVC framework for C# Winform application developments, it includes
+MatthewJesse is an individual C# project, intends to provide a MVC framework for C# Winform application developments, it includes
 two parts: MJ.Core and MJ.MVC, MJ.Core doese data binding part for MJ.MVC framework, it can be used separately, or comes with MJ.MVC.
 
 With MJ.Core, Winform developers can bind data model to UI controls, then MJ.Core will push/pull data model to/from controls automatically, actually, there are two types of data binding in MJ.Core, one-way-binding and two-way-binding, one-way-binding only supports push data to controls, but can't get data from controls  two-way-binding means you can do both of them. pros and cons of this two ways, see examples below.
@@ -20,31 +20,24 @@ MJ.Core examples
 
 two-way-binding code sinppet:
 
-/* binding a TextEdit control with DepositModel 'accountName' attri */
-
-txtAccount.TextBindTo<DepositModel>(m => m.accountName);
+    /* binding a TextEdit control with DepositModel 'accountName' attri */
+    txtAccount.TextBindTo<DepositModel>(m => m.accountName);
 
 one-way-binding code sinppet:
 
-/* binding Total Amount TextEdit with DepositModel, but not its single attri, need calcuate out by some rules */
-
-txtTotalAmount.TextFor<DepositModel>(m =>{
-
-var amount = 0;
-
-...
-
-return amount;
-
-});
+    /* binding Total Amount TextEdit with delegate, which depends on DepositModel */
+    txtTotalAmount.TextFor<DepositModel>(m =>{
+    var amount = 0;
+    ...
+    return amount;
+    });
 
 1.2 Data Load()
 
 code sinppet:
 
-/* txtBox1 can be any of control instances */
-
-txtBox1.Load<DepositModel>(deposit);
+        /* txtBox1 can be any of control instances */
+        txtBox1.Load<DepositModel>(deposit);
 
 According data bindings, Load() will push deposit data to all controls binding to DepositModel.
 
@@ -52,17 +45,63 @@ According data bindings, Load() will push deposit data to all controls binding t
 
 code sinppet:
 
-var check = new CheckModel();
-
-check.Get<CheckModel>();
+        var check = new CheckModel();
+        check.Get<CheckModel>();
 
 According data bindings, Get() will pull check data from all controls binding to CheckModel.
 
 1.4 More features with Data binding
 
+MJ.Core supports more complex features coming with data binding, such as Validation and Ignorable Conditions.
 
+Validation:
 
+        txtTotal.TextBindTo<DepositModel>(m => m.actualAmount)
+                        .ToValidate(m => m.actualAmount <= m.expectedAmount)
+                        .ToSuccess((c, m) =>
+                        {
+                            c.ForeColor = SystemColors.MenuHighlight;
+                        })
+                        .ToFail((c, m) =>
+                        {
+                            c.ForeColor = Color.Red;
+                        });
 
+Ignorable Condition:
+
+        txtCheksNum.TextBindTo<DepositModel>(m => m.actualNumberOfChecks)
+                   .ToIgnore(m => m.status == PENDING);
+
+1.5 Complete example
+        ...
+        /*Data binding for DepositModel*/
+        txtAccount.TextBindTo<DepositModel>(m => m.accountName);
+
+        txtLocation.TextBindTo<DepositModel>(m => m.locationName);
+
+        txtTotal.TextBindTo<DepositModel>(m => m.actualAmount)
+                        .ToValidate(m => m.actualAmount <= m.expectedAmount)
+                        .ToSuccess((c, m) =>
+                        {
+                            c.ForeColor = SystemColors.MenuHighlight;
+                        })
+                        .ToFail((c, m) =>
+                        {
+                            c.ForeColor = Color.Red;
+                        });
+
+        txtCheksNum.TextBindTo<DepositModel>(m => m.actualNumberOfChecks)
+                    .ToIgnore(m => m.status == PENDING);
+        
+        ...
+        /*Push data to controls*/
+        var deposit = GetFromWhatever();
+        txtAccount.Load<DepositModel>(deposit);
+
+        ...
+        /*Pull data from controls*/
+        var deposit = new DepositModel();
+        deposit.Get<DepositModel>();
 
 
 
