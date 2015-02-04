@@ -18,12 +18,12 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
 
     1.1 Data binding
 
-      two-way-binding code sinppet:
+       two-way-binding code sinppet:
 
         /* binding a TextEdit control with DepositModel 'accountName' attri */
         txtAccount.TextBindTo<DepositModel>(m => m.accountName);
 
-      one-way-binding code sinppet:
+       one-way-binding code sinppet:
 
         /* binding Total Amount TextEdit with delegate, which depends on DepositModel */
         txtTotalAmount.TextFor<DepositModel>(m =>{
@@ -34,27 +34,27 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
 
     1.2 Data Load
 
-			code sinppet:
+	code sinppet:
 
         /* txtBox1 can be any of control instances */
         txtBox1.Load<DepositModel>(deposit);
 
-			According data bindings, Load() will push deposit data to all controls binding to DepositModel.
+	According data bindings, Load() will push deposit data to all controls binding to DepositModel.
 
-		1.3 Data Get
+     1.3 Data Get
 
-			code sinppet:
+	code sinppet:
 
         var check = new CheckModel();
         check.Get<CheckModel>();
 
-			According data bindings, Get() will pull check data from all controls binding to CheckModel.
+	According data bindings, Get() will pull check data from all controls binding to CheckModel.
 
-		1.4 More features with Data binding
+      1.4 More features with Data binding
 
-			MJ.Core supports more complex features coming with data binding, such as Validation and Ignorable Conditions.
+	MJ.Core supports more complex features coming with data binding, such as Validation and Ignorable Conditions.
 
-			Validation:
+	Validation:
 
         txtTotal.TextBindTo<DepositModel>(m => m.actualAmount)
                         .ToValidate(m => m.actualAmount <= m.expectedAmount)
@@ -67,12 +67,12 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
                             c.ForeColor = Color.Red;
                         });
 
-			Ignorable Condition:
+	Ignorable Condition:
 
         txtCheksNum.TextBindTo<DepositModel>(m => m.actualNumberOfChecks)
                    .ToIgnore(m => m.status == PENDING);
 
-		1.5 Complete example
+     1.5 Complete example
         
         ...
         /*Data binding for DepositModel*/
@@ -105,7 +105,7 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
         deposit.Get<DepositModel>();
 
 
-	MJ.MVC examples
+   MJ.MVC examples
 
         ...
         /*Data binding for CheckModel*/
@@ -136,6 +136,6 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
         this._MJ_("WhateverController", "InsertChecktoDeposit", check);
         ...
 
-    _MJ_() method will update UI controls using return data model, In this case it will update controls binding to DepositModel
+	_MJ_() method will update UI controls using return data model, In this case it will update controls binding to DepositModel
     
     
