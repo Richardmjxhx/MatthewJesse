@@ -20,17 +20,17 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
 
        two-way-binding code sinppet:
 
-        /* binding a TextEdit control with DepositModel 'accountName' attri */
-        txtAccount.TextBindTo<DepositModel>(m => m.accountName);
+	        /* binding a TextEdit control with DepositModel 'accountName' attri */
+	        txtAccount.TextBindTo<DepositModel>(m => m.accountName);
 
        one-way-binding code sinppet:
 
-        /* binding Total Amount TextEdit with delegate, which depends on DepositModel */
-        txtTotalAmount.TextFor<DepositModel>(m =>{
-        var amount = 0;
-        ...
-        return amount;
-        });
+	        /* binding Total Amount TextEdit with delegate, which depends on DepositModel */
+	        txtTotalAmount.TextFor<DepositModel>(m =>{
+	        var amount = 0;
+	        ...
+	        return amount;
+	        });
 
     1.2 Data Load
 
@@ -41,7 +41,8 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
 
 	According data bindings, Load() will push deposit data to all controls binding to DepositModel.
 
-     1.3 Data Get
+
+    1.3 Data Get
 
 	code sinppet:
 
@@ -50,7 +51,7 @@ In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application dev
 
 	According data bindings, Get() will pull check data from all controls binding to CheckModel.
 
-      1.4 More features with Data binding
+    1.4 More features with Data binding
 
 	MJ.Core supports more complex features coming with data binding, such as Validation and Ignorable Conditions.
 
