@@ -73,6 +73,7 @@ Ignorable Condition:
                    .ToIgnore(m => m.status == PENDING);
 
 1.5 Complete example
+        
         ...
         /*Data binding for DepositModel*/
         txtAccount.TextBindTo<DepositModel>(m => m.accountName);
