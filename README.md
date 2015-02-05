@@ -146,7 +146,7 @@ apply TDD or do Unit tests, no matter your project status is waiting-to-start or
 	to DepositModel
     
 
-  # Features Overview
+# Features Overview
   
 	 Features	            Control Property			MJ Version
 	
@@ -158,6 +158,8 @@ apply TDD or do Unit tests, no matter your project status is waiting-to-start or
 	ImageFor<T>()			.Image 				0.16.2 and later
 	ListFor<T>()			.Items 				0.16.2 and later
 	  	
+# Download
 
-
+  https://www.nuget.org/packages/MJ.MVC/
+  https://www.nuget.org/packages/MJ.Core/
     
