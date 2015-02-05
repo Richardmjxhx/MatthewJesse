@@ -46,9 +46,9 @@
     <Compile Include="MJ.MVC\_MJ_MVC_Helper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MJ.Lib\MJ.Lib.csproj">
+    <ProjectReference Include="..\MJ.Core.Lib\MJ.Core.Lib.csproj">
       <Project>{e014be55-58a1-4f14-bdfc-9ef98a6c44b4}</Project>
-      <Name>MJ.Lib</Name>
+      <Name>MJ.Core.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

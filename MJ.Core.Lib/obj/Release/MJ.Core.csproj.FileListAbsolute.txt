@@ -1,0 +1,5 @@
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib\bin\Release\MJ.Core.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib\bin\Release\MJ.Core.pdb
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib\obj\Release\MJ.Core.csprojResolveAssemblyReference.cache
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib\obj\Release\MJ.Core.dll
+D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib\obj\Release\MJ.Core.pdb

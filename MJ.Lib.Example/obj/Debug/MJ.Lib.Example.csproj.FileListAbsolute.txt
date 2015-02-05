@@ -1,7 +1,0 @@
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Debug\MJ.Lib.Example.exe.config
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Debug\MJ.Lib.Example.exe
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\bin\Debug\MJ.Lib.Example.pdb
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Debug\MJ.Lib.Example.Properties.Resources.resources
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Debug\MJ.Lib.Example.csproj.GenerateResource.Cache
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Debug\MJ.Lib.Example.exe
-D:\Richard_C\OpenSource\MatthewJesse\MJ.Lib.Example\obj\Debug\MJ.Lib.Example.pdb
