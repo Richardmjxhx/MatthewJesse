@@ -17,7 +17,7 @@ neat and beautiful,etc. more details please see examples below.
 In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application developments particularly when you plan to 
 apply TDD or do Unit tests, no matter your project status is waiting-to-start or already in-process.
 
-# Examples
+# Code Examples
 
   MJ.Core examples
 
@@ -142,6 +142,12 @@ apply TDD or do Unit tests, no matter your project status is waiting-to-start or
         this._MJ_("WhateverController", "InsertChecktoDeposit", check);
         ...
 
-	_MJ_() method will update UI controls using return data model, In this case it will update controls binding to DepositModel
+	_MJ_() method will update UI controls using return data model, In this case it will update controls binding
+	to DepositModel
     
+
+  # Code Examples
+  	
+
+
     
