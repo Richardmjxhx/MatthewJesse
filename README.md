@@ -150,13 +150,13 @@ apply TDD or do Unit tests, no matter your project status is waiting-to-start or
   
 	 Features	            Control Property			MJ Version
 	
-	TextBindTo<T>()			.Text 				0.16.2 and later
-	TextFor<T>()			.Text 				0.16.2 and later
-	EnabledBindTo<T>()		.Enable 			0.16.2 and later
-	EnabledFor<T>()			.Enable 			0.16.2 and later
-	ImageBindTo<T>()		.Image 				0.16.2 and later
-	ImageFor<T>()			.Image 				0.16.2 and later
-	ListFor<T>()			.Items 				0.16.2 and later
+	TextBindTo<T>()			.Text 					0.16.2 and later
+	TextFor<T>()			.Text 					0.16.2 and later
+	EnabledBindTo<T>()		.Enable 				0.16.2 and later
+	EnabledFor<T>()			.Enable 				0.16.2 and later
+	ImageBindTo<T>()		.Image 					0.16.2 and later
+	ImageFor<T>()			.Image 					0.16.2 and later
+	ListFor<T>()			.Items 					0.16.2 and later
 	  	
 # Download
 
