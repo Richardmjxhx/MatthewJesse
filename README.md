@@ -12,7 +12,7 @@ both of them. pros and cons of this two ways, see examples below.
 MJ.MVC provides complete MVC framework for Winform application developments, it is lightweight, painlessly turn on/off, 
 the only prerequisite to use MJ.MVC is there need has at least one 'public' class named with "Controller" suffix, 	
 that's why I am saying "painlessly", and benefits are tremendous, such as, easy to apply Unit Test/TDD, makes your code 
-neat and beautiful,etc. more details please see examples below.
+neat and cool, after data bindings, call "_MJ_(controller,action,params)" anywhere in your winform class, UI controls will update automatically, more details please see examples below.
 
 In one word, MJ.MVC/MJ.Core is a fantastic choice for C# Winform application developments particularly when you plan to 
 apply TDD or do Unit tests, no matter your project status is waiting-to-start or already in-process.
